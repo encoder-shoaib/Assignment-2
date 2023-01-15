@@ -114,12 +114,17 @@ padding-right: 30px;
     display: flex;
     gap: 70px;
 }
+.trick{
+    height: 5000px;
+    color: #FF900E;
+}
 .injoy-header{
     font-weight: 700;
  font-size: 45px;
     line-height: 53px;
     padding-top: 110px;
     padding-left: 140px;
+  
 }
 .pragraph{
     font-weight: 250;
@@ -166,43 +171,48 @@ font-size: 40px;
 margin-left: 220px;
 }
 .some-fact-pragraph{
-
 font-weight: 400;
 font-size: 16px;
 margin-left: 200px;
 }
 
-
-
 .some-icon{
     display: flex;
     line-height: 10px;
     padding-top: 90px;
-    
+    justify-content: center;
     
 }
+.some-fact-icon{
+    border: 2px solid red;
+    margin-left: 20px;
+    width: 280px;
+    border-radius: 10px;
+}
+.some-fact-icon:hover{
+background-color: rgb(175, 6, 161);
 
+}
 .some-fact-icon img{
     height: 30px;
     width: 30px;
-    padding-left: 200px;
+margin-right: 120px;
+
     
     
 }
 .some-icon-h1{
-    padding-left: 194px;
+    padding-left: 160px;
     width: 102px;
     
 
 }
 .some-icon-p{
-    padding-left: 165px;
+    padding-left: 130px;
     font-weight: 600;
 font-size: 20px;
 
 }
-
-
 
 /* footer */
 .its-footer{
@@ -234,16 +244,23 @@ padding-top: 50px;
 }
 .last-footer-section{
     
-    border: 2px solid red;
+    border: 2px solid wheat;
     background: #FFF4E7;
 border-radius: 8px;
 margin-left: 200px;
 margin-right: 200px;
-margin-bottom: 210px;
+margin-bottom: 200px;
 }
 
 .last-footer-section-pragraph{
     text-align: center;
     font-weight: 400;
 font-size: 20px;
+}
+@media screen and (max-width:576px) {
+.team-work-section{
+    flex-direction: column;
+    gap: 20px;
+
+}
 }
